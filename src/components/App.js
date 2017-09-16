@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../logo.svg';
-import Button from "./Button.js"
 import MapPage from "../containers/MapPage.js"
 import './style/App.css';
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Map from '../components/Map';
 
 class MapPage extends Component {
   render() {
@@ -10,6 +11,7 @@ class MapPage extends Component {
         <p className="MapPage-intro">
           To get started, edit <code>src/containers/MapPage.js</code> and save to reload.
         </p>
+          <Map />
       </div>
     );
   }
