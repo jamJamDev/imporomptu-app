@@ -12,7 +12,7 @@ class MapPage extends Component {
           <Button text="Not Today!" color="green"/>
         </div>
         <p className="MapPage-intro">
-          To get started, edit <code>src/MapPage.js</code> and save to reload.
+          To get started, edit <code>src/containers/MapPage.js</code> and save to reload.
         </p>
         <div>
           <MapPage />
