@@ -36,7 +36,7 @@ class CreateEvent extends React.Component {
   render() {
 
     return (
-      <div style={{border: "1px solid black", margin: "auto", width: "375px", padding: "10px 30px 10px 50px"}}>
+      <div style={{textAlign:"center", border: "1px solid black", margin: "auto", width: "375px", padding: "10px 30px 10px 50px"}}>
       <h1>Add an Event</h1>
       <form>
         <label>
@@ -63,7 +63,7 @@ class CreateEvent extends React.Component {
           Contact Info:
           <input name="contact" type="text" value={this.state.contact} onChange={this.handleInputChange} />
         </label> <br />
-        <input style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}} type="submit" value="Submit" />
+        <Button style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}} type="submit" value="Submit">Submit</Button>
       </form>
       </div>
     );
