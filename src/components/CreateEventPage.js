@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import promise from 'redux-promise';
 
+<<<<<<< HEAD
 
 import './index.css';
 import App from './components/App';
@@ -28,8 +33,8 @@ class NameForm extends React.Component {
 
   render() {
     return (
-    	<div>
-    	<h1>Add an Event</h1>
+      <div>
+      <h1>Add an Event</h1>
       <form onSubmit={this.handleSubmit}>
         <label>
           Event Title:
