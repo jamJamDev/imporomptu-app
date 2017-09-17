@@ -1,4 +1,6 @@
 import React from 'react';
+import 'mui-react/dist/mui-react.css';
+import {Button} from 'mui-react';
 
 const EventListItem = ({eventData}) => {
     console.log(eventData);
@@ -11,6 +13,7 @@ const EventListItem = ({eventData}) => {
                 <div style={{marginBottom:10}}>{eventData.contactInfo}</div>
                 <div style={{marginBottom:10}}>{eventData.minParticipants} of {eventData.maxParticipants} people are participating</div>
                 <div>#{eventData.category}</div>
+                <Button style={{backgroundColor:"#14ad24", outline:"none", color:"white", float:"right"}}>Join</Button>
             </div>
         </div>
     )

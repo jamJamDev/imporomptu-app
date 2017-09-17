@@ -33,22 +33,6 @@
       "contactInfo": "Call me at 8675309"
     },
     {
-      "eventTitle": "Improv",
-      "eventID": 3,
-      "time": "12:30PM",
-      "date": "Today",
-      "description": "This is an improv play",
-      "minParticipants": 5,
-      "maxParticipants": 10,
-      "category": "theater",
-      "location": {
-        "address": "101 Theater St",
-        "lat": 29.403754,
-        "long": -97
-      },
-      "contactInfo": "Call me at 8675309"
-    },
-    {
       "eventTitle": "Chess Game",
       "eventID": 4,
       "time": "4:30PM",

@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import EventListItem from '../components/EventListItem';
 import { fetchEvents } from "../actions/index";
 import _ from 'lodash';
+import 'mui-react/dist/mui-react.css';
+import {Button} from 'mui-react';
 
 class EventList extends Component {
     componentDidMount() {
@@ -10,11 +12,7 @@ class EventList extends Component {
     }
 
     renderEvents(){
-        console.log(this.props.fetchEvents());
-        console.log(this.props);
-        console.log(this.state)
         return _.map(this.props.fetchEvents().payload.events, eventData => {
-            console.log("EVENT DATA:", eventData);
             return (
                 <EventListItem
                     key={eventData.eventID}
@@ -24,9 +22,13 @@ class EventList extends Component {
     }
 
     render() {return(
-            <ul className="col-md-4 list-group">
+        <div>
+            <h4>Add New Filter <plus style={{fontSize:23, color:"#14ad24"}}><b>+</b></plus></h4>
+            <ul className="col-md-4 list-group" style={{marginTop:-20}}>
                 {this.renderEvents()}
             </ul>
+            <Button style={{marginRight:4 , backgroundColor:"#1934e5", outline:"none", color:"white", float:"right"}}>Add New Event</Button>
+        </div>
         );
     }
 }
