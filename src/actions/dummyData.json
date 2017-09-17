@@ -5,7 +5,7 @@
       "eventID": 1,
       "time": "12:30PM",
       "date": "Today",
-      "description": "Playing some soccer in the park yo",
+      "description": "Looking to play some soccer at the field in the park. I'll be bringing plenty of water, bring snacks if possible.",
       "minParticipants": 5,
       "maxParticipants": 10,
       "category": "sports",
@@ -14,14 +14,14 @@
         "lat": 30.403863,
         "long": -97.722699
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Call me at 8675309"
     },
     {
       "eventTitle": "Football at the park",
       "eventID": 2,
       "time": "12:30PM",
       "date": "Today",
-      "description": "Playing some football in the park yo",
+      "description": "Playing at the field in the park. Full contact, so be sure to bring the necessary gear!",
       "minParticipants": 5,
       "maxParticipants": 10,
       "category": "sports",
@@ -30,10 +30,10 @@
         "lat": 30.403754,
         "long": -97
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Call me at 8675309"
     },
     {
-      "eventTitle": "Improv Play",
+      "eventTitle": "Improv",
       "eventID": 3,
       "time": "12:30PM",
       "date": "Today",
@@ -46,7 +46,23 @@
         "lat": 29.403754,
         "long": -97
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Call me at 8675309"
+    },
+    {
+      "eventTitle": "Chess Game",
+      "eventID": 4,
+      "time": "4:30PM",
+      "date": "Today",
+      "description": "Playing chess for a few hours. I'd like to play with one other person, but if we can get more & rotate, that'd be cool.",
+      "minParticipants": 2,
+      "maxParticipants": 4,
+      "category": "games",
+      "location": {
+        "address": "123 Chess Street",
+        "lat": 29.403754,
+        "long": -97
+      },
+      "contactInfo": "Email me at johnDoe@gmail.com"
     }
   ]
 }

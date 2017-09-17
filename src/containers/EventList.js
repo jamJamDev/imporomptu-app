@@ -21,13 +21,6 @@ class EventList extends Component {
                     eventData={eventData} />
             );
         });
-        /*eventItems = data.payload.events.forEach((eventData) => {
-            return (
-                <EventListItem
-                    key={eventData.eventID}
-                    eventData={eventData} />
-            );
-        });*/
     }
 
     render() {return(

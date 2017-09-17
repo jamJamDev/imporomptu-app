@@ -10,7 +10,7 @@ class Map extends Component {
 
     render() {
         return (
-            <div style={{width:1400, height:950, float:"left", marginRight: 8}}>
+            <div style={{width:1450, height:950, float:"left", marginRight: 8}}>
                 <GoogleMap
                     bootstrapURLKeys={{
                         key: "AIzaSyCbwEpFYJn7XRyB3RiWHVgKSgqO7TsdqXU",
