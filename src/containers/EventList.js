@@ -5,6 +5,7 @@ import { fetchEvents } from "../actions/index";
 import _ from 'lodash';
 import 'mui-react/dist/mui-react.css';
 import {Button} from 'mui-react';
+import { Link } from 'react-router-dom';
 
 class EventList extends Component {
     componentDidMount() {
@@ -27,7 +28,9 @@ class EventList extends Component {
             <ul className="col-md-4 list-group" style={{marginTop:-20}}>
                 {this.renderEvents()}
             </ul>
-            <Button style={{marginRight:4 , backgroundColor:"#1934e5", outline:"none", color:"white", float:"right"}}>Add New Event</Button>
+            <Link to="/create" style={{color:"white", textDecoration:"none", padding:100}}>
+                <Button style={{marginRight:4 , backgroundColor:"#1934e5", outline:"none", color:"white", float:"right"}}>Add New Event</Button>
+            </Link>
         </div>
         );
     }

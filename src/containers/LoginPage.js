@@ -21,9 +21,9 @@ class MapPage extends Component {
 
                 <div>
                   <Link to="/map" style={{color:"white", textDecoration:"none", padding:100}}>
-                  <button onClick={this.handleClick} style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}}>
+                  <Button onClick={this.handleClick} style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}}>
                     <a href="/map" className="Button" style={{color:"white", textDecoration:"none"}}>Login</a>
-                  </button>
+                  </Button>
                   </Link>
                 </div>
 

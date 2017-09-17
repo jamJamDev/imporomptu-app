@@ -38,7 +38,7 @@ textAlign: "center"
             <input type="text" value={this.state.value} onChange={this.handleChange} />
           </label>
         </div>
-        <input type="submit" value="Create Account" style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}} />
+          <Button type="submit" value="Create Account" style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}}>Create Account</Button>
       </form>
     );
   }
