@@ -1,35 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import promise from 'redux-promise';
-
-<<<<<<< HEAD
-
-import './index.css';
-import App from './components/App';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-class NameForm extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {value: ''};
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleChange(event) {
-    this.setState({value: event.target.value});
-  }
-
-  handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    event.preventDefault();
-    
-  }
+import Calendar from 'react-input-calendar'
 
   render() {
     return (
@@ -63,7 +33,4 @@ class NameForm extends React.Component {
   }
 }
 
-ReactDOM.render(
-  <NameForm />,
-  document.getElementById('root')
-);
+export default NameForm
