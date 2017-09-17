@@ -1,52 +1,52 @@
 {
   "events":[
     {
-      "eventTitle": "Soccer at the park",
+      "eventTitle": "Protest for LGBTQ+ Rights",
       "eventID": 1,
-      "time": "12:30PM",
+      "time": "2:30PM",
       "date": "Today",
-      "description": "Playing some soccer in the park yo",
+      "description": "New bill was passed that makes it legal to refuse business based off religion, etc., which people are using to refuse service to LGBTQ+ community. Paint your signs & come have your voice heard.",
       "minParticipants": 5,
-      "maxParticipants": 10,
-      "category": "sports",
+      "maxParticipants": "50+",
+      "category": "#LGBTQ+ #politics #protest",
       "location": {
-        "address": "101 Park St",
+        "address": "1091 Political St",
         "lat": 30.403863,
         "long": -97.722699
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Call me at 8675309"
     },
     {
       "eventTitle": "Football at the park",
       "eventID": 2,
       "time": "12:30PM",
       "date": "Today",
-      "description": "Playing some football in the park yo",
+      "description": "Playing at the field in the park. Full contact, so be sure to bring the necessary gear!",
       "minParticipants": 5,
       "maxParticipants": 10,
-      "category": "sports",
+      "category": "#sports #football #park",
       "location": {
         "address": "105 Park St",
         "lat": 30.403754,
         "long": -97
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Call me at 8675309"
     },
     {
-      "eventTitle": "Improv Play",
-      "eventID": 2,
-      "time": "12:30PM",
+      "eventTitle": "Chess Game",
+      "eventID": 4,
+      "time": "4:30PM",
       "date": "Today",
-      "description": "This is an improv play",
-      "minParticipants": 5,
-      "maxParticipants": 10,
-      "category": "theater",
+      "description": "Playing chess for a few hours. I'd like to play with one other person, but if we can get more & rotate, that'd be cool.",
+      "minParticipants": 2,
+      "maxParticipants": 4,
+      "category": "#games #chess #boardGames",
       "location": {
-        "address": "101 Theater St",
+        "address": "123 Chess Street",
         "lat": 29.403754,
         "long": -97
       },
-      "contact info": "Call me at 8675309"
+      "contactInfo": "Email me at johnDoe@gmail.com"
     }
   ]
 }
