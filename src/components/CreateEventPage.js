@@ -8,6 +8,7 @@ class CreateEvent extends React.Component {
     super(props);
     this.state = {
       title: '',
+      tags: '',
       date: '',
       location: '',
       description: '',
@@ -15,54 +16,52 @@ class CreateEvent extends React.Component {
 
       };
 
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleInputChange = this.handleInputChange.bind(this);
+
   }
 
 
-  handleChange(event) {
-   
-    this.setState({title: event.target.title});
-    this.setState({date: event.target.tags}); 
-    this.setState({date: event.target.date}); 
-    this.setState({location: event.target.location});
-    this.setState({description: event.target.description});
-    this.setState({contact: event.target.contact});
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.value
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+
   }
 
-  handleSubmit(event) {
-    console.log(this.state.date);
-    event.preventDefault();
-  }
 
   render() {
+
     return (
       <div style={{border: "1px solid black", margin: "auto", width: "375px", padding: "10px 30px 10px 50px"}}>
       <h1>Add an Event</h1>
-      <form onSubmit={this.handleSubmit}>
+      <form>
         <label>
           Title:
-          <input id="input" name="title" type="text" value={this.state.title} onChange={this.handleChange} />
+          <input name="title" type="text" value={this.state.title} onChange={this.handleInputChange} />
         </label> <br />
         < label >
          Tags:
-          <input id="input" name="tags" type="text" value={this.state.tags} onChange={this.handleChange} />
+          <input name="tags" type="text" value={this.state.tags} onChange={this.handleInputChange} />
         </label> <br />
           <label>
           Date:
-          <input name="date" type="text" value={this.state.date} onChange={this.handleChange} />
+          <input name="date" type="text" value={this.state.date} onChange={this.handleInputChange} />
         </label> <br />
         <label>
           Location:
-          <input  name="location" type="text" value={this.state.location} onChange={this.handleChange} />
+          <input  name="location" type="text" value={this.state.location} onChange={this.handleInputChange} />
         </label> <br />
         <label>
           Description:
-          <input name="description" type="text" value={this.state.description} onChange={this.handleChange} />
+          <input name="description" type="text" value={this.state.description} onChange={this.handleInputChange} />
         </label> <br /> 
         <label>
           Contact Info:
-          <input name="contact" type="text" value={this.state.contact} onChange={this.handleChange} />
+          <input name="contact" type="text" value={this.state.contact} onChange={this.handleInputChange} />
         </label> <br />
         <input style={{backgroundColor:"#14ad24 ", outline:"none", color:"white"}} type="submit" value="Submit" />
       </form>
