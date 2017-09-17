@@ -12,7 +12,7 @@ const EventListItem = ({eventData}) => {
                 <div style={{marginBottom:10}}>{eventData.description}</div>
                 <div style={{marginBottom:10}}>{eventData.contactInfo}</div>
                 <div style={{marginBottom:10}}>{eventData.minParticipants} of {eventData.maxParticipants} people are participating</div>
-                <div>#{eventData.category}</div>
+                <div>{eventData.category}</div>
                 <Button style={{backgroundColor:"#14ad24", outline:"none", color:"white", float:"right"}}>Join</Button>
             </div>
         </div>
