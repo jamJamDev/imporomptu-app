@@ -1,3 +1,14 @@
+## Impromptu
+The application to find something to do today or tomorrow! Was a new bill announced you're not happy with? Form or find a protest ASAP! Feel like playing some sort of sport outside? Look at the event list or create an event if you don't see what you like! :)
+
+This application was built using React, Redux & Node.js. To check it out:
+1. Clone the application `git clone https://github.com/jamielthompson29/imporomptu-app.git`
+2. Install node modules `npm install`
+3. Run applicatoin by running the cmd `npm start`
+
+C# & SQL was used on the backend (more info needed from team, component is currenlty not integrated). 
+
+___________________________________________________________________________
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
